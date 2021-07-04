@@ -1,0 +1,47 @@
+.galeriaservi {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+     
+  }
+  
+  .columnaservi {
+    flex: 50%;
+    max-width: 30%;
+    padding: 0 20px;
+  }
+
+  .columnaservigrid {
+    flex: 70%;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+
+  .columnaservigrid img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%; 
+  }
+  
+  .columnaservi img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;   
+  }
+
+  @media screen and (max-width: 800px) {
+    .columnaservi { 
+      flex: 80%;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .columnaservigrid  { 
+      flex: 100%;
+      max-width: 100%;
+     
+    }
+  }

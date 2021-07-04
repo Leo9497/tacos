@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import CardMedia from '@material-ui/core/CardMedia';
@@ -92,12 +92,24 @@ const classes = useStyles();
             <li className="nav-item">
               <NavLink
                 exact
-                to="/menu"
+                to="/servicios"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Menú
+                Servicios
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/galería"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Galería
               </NavLink>
             </li>
            

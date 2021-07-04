@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -20,7 +21,20 @@ export default function FullWidthGrid() {
   return (
     <div className={classes.root}>
       <Grid container >
-        <Grid item xs={12}>
+      <Grid item xs={12} sm={6}>
+          <div className="ubicacion">
+              <h6>Ven con nosotros</h6> 
+              
+              <p className="ubi">Calle Plutarco Elías Calles #77 col. Centro, San josé Iturbide Gto</p>
+              <br />
+              <h6>Horario</h6> 
+              <p className="ubi">Domingo-jueves 4:00 PM- 2.00 AM</p>
+              <p className="ubi">Viernes-Sabado 4:00 PM- 4.00 AM</p>
+          
+          </div>
+        </Grid>
+        
+        <Grid item xs={12} sm={6}>
           <Paper className={classes.paper}>
             
           <iframe width="472" height="400" 
