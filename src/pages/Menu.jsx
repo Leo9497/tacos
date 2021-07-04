@@ -124,7 +124,7 @@ export default function FullWidthGrid() {
         <div className="contenedor">
       <div className="capa">
       <CardMedia
-          image="/images/fogon.jpg"
+          image="/images/tacos.jpg"
         >
                 <figure>
                <div className="capa">
